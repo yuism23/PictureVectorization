@@ -27,7 +27,7 @@ _Note: Since SVG files cannot be directly previewed on GitHub, we are showing a 
 ### Evaluation Result
 This image shows the evaluation result, including edge matching visualization:
 
-![Evaluation Result](examples/evaluation_result.png)
+![Evaluation Result](examples/evaluation_metrics_boxplot.png)
 ![edge matching](examples/matching.png)
 
 ## Requirements
