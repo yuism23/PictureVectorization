@@ -15,7 +15,7 @@ Below are some example images showing the workflow:
 ### Original Image
 Here is an example of an original image before processing:
 
-![Original Image](examples/original_image.jpg)
+![Original Image](examples/original_image.JPG)
 
 ### Vectorized SVG
 The following image shows the result after vectorizing the original image:
