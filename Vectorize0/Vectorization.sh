@@ -2,8 +2,8 @@
 
 # Run Preprocess.py to resize and convert images
 CUDA_VISIBLE_DEVICES=2 python Preprocess.py \
-    --input_folder /home/hongda/input/images \
-    --output_folder /home/hongda/output/preprocessed_images \
+    --input_folder /dataset \
+    --output_folder /output/preprocessed_images \
     --max_resolution 1024
 
 # Check if Preprocess.py was successful
@@ -14,8 +14,8 @@ fi
 
 # Run Vectorize.py to process images and generate SVGs
 CUDA_VISIBLE_DEVICES=2 python Vectorize.py \
-    --dataset_path /home/hongda/output/preprocessed_images \
-    --output_dir /home/hongda/output/vectorized_svgs \
+    --dataset_path /output/preprocessed_images \
+    --output_dir /output/vectorized_svgs \
     --n_clusters 12 \
     --epsilon 2.0 \
     --max_depth 5
